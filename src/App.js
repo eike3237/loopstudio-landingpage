@@ -2,11 +2,12 @@ import React from 'react';
 
 import './App.css';
 import './global.css';
-import './footer.css';
+// import './footer.css';
 import './header.css';
 import './main.css';
 
 import headerlogo from './images/logo.svg';
+import presentationImage from './images/desktop/image-interactive.jpg';
 
 function App() {
   return (
@@ -32,20 +33,31 @@ function App() {
       </div>
 
       <div className="main">
-        <div className="main-firstbox">
-          The leader in interactive VR
 
-          Founded in 2011, Loopstudios has been producing world-class virtual reality 
-          projects for some of the best companies around the globe. Our award-winning 
-          creations have transformed businesses through digital experiences that bind 
-          to their brand.
-        </div>
+        <div className="main-imageBox">
+          <div className="main-image">
+            <img src={presentationImage} alt="presentationImage"/>
+          </div>
+
+          <div className="main-secondbox">        
+            <div className="presentationTitle">
+              THE LEADER IN INTERACTIVE VR
+            </div>
+
+            <div className="presentationText">
+              Founded in 2011, Loopstudios has been producing world-class virtual reality 
+              projects for some of the best companies around the globe. Our award-winning 
+              creations have transformed businesses through digital experiences that bind 
+              to their brand.
+            </div>
+          </div>
+        </div>       
 
         <div className="main-sections">
           <div className="main-sections_title">
             Our creations
 
-            See all
+            <button type="button">See all</button>
           </div>
 
           <div className="main-sections_creations">

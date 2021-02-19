@@ -36,8 +36,11 @@
     background-position: center;
     background-position-y: 0px;
     background-position-x: 0rem;
-    background-size: 90rem 26rem;
-    /* background-size: cover; */
+    /* background-size: 90rem 26rem; */
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-repeat: no-repeat;
 
     z-index: 0;
@@ -49,9 +52,9 @@
     /* margin-top: 40rem; */
     width: 30rem;
     /* margin: 164px; */
-    margin-top: 10%;
+    margin-top: 7rem;
     font-size: 3rem;
-    margin-left: 5%;
+    margin-left: 4rem;
     border: solid;
     border-color: white;
     height: fit-content;

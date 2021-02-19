@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+.main {
+    display: flex;
+    flex-direction: column;
+
+    padding: 6rem 7rem;
+    width: 100%;
+}
+
+.main-imageBox {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px;
+    justify-content: center;
+}
+
+.main-image {
+    z-index: 0;
+    position: relative;
+    width: fit-content;
+    max-width: 700px;
+}
+
+.main-image img{
+    max-width: 100%;
+    height: fit-content;
+
+}
+
+.main-secondbox {
+    min-height: 450px;
+    max-width: 700px;
+    padding: 5rem 4rem;
+
+    background-color: white;
+    padding-bottom: 0;
+    margin-top: 9rem;
+    margin-left: -9rem;
+    z-index: 10;
+}
+
+.presentationTitle {
+    color: hsl(0, 0%, 41%);
+    font-family: 'Alata', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 4rem;
+    font-weight: 300;
+    line-height: 4rem;
+}
+
+.presentationText {
+    color: hsl(0, 0%, 41%);
+    margin-top: 20px;
+    font-family: 'Alata', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 80%;
+    line-height: 1.5rem;
+}
+
+.main-sections_title {
+
+}
