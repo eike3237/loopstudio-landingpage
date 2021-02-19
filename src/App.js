@@ -28,7 +28,7 @@ function App() {
       </div>
 
       <div className="Header-background">
-        <span>Immersive experiences that deliver</span>
+        <div className="Header-bgText">Immersive <br/> experiences that <br/> deliver</div>
       </div>
 
       <div className="main">
